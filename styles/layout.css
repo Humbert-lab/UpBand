@@ -63,3 +63,15 @@ article img{
 	outline-width: .1em;
 	outline-style: solid;
 }
+#about header{
+	background-image: url(../images/lineup.jpg);
+}
+#photos header{
+	background-image: url(../images/basshead.jpg);
+}
+#live header{
+	background-image:url(../images/bassist.jpg);
+}
+#contact header{
+	background-image: url(../images/drummer.jpg);
+}
