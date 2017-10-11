@@ -64,14 +64,31 @@ article img{
 	outline-style: solid;
 }
 #about header{
-	background-image: url(../images/lineup.jpg);
+	background-image: url(../images/guitarist.jpg);
 }
 #photos header{
-	background-image: url(../images/basshead.jpg);
+	background-image: url(../images/guitarist.jpg);
 }
 #live header{
-	background-image:url(../images/bassist.jpg);
+	background-image:url(../images/guitarist.jpg);
 }
 #contact header{
-	background-image: url(../images/drummer.jpg);
+	background-image: url(../images/guitarist.jpg);
+}
+#slideshow{
+	width:150px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+}
+#preview{
+	position: absolute;
+	border-width: 0;
+	outline-width: 0;
+}
+#frame{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 99;
 }
