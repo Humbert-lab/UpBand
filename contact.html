@@ -21,18 +21,27 @@
 		</ul>
 		</nav>
 	</header>
-	<article><h1>Lorem Ipsum Dolor</h1>
-	<p>Lorem ipsum dolor sit amet,consetetuer adipiscint elit.
-	Nullam iaculis vestibulum turpis.Pellentesque mattis rutrum nibh.quisque orci,euismod sit amet,sollicitudin et,ullamcorper at,lorem.
-	Pellentesque habitant morbi tristique senectus et netus
-	et malesuada fames ac turpis egestas.
-	Ut lectus.Mauris eu sapien non enim dapibus imperdiet.
-	Fusce eget es.Sed ullamcorper enim dapibus imperdiet.
-	Fusce eget est.Sed ullamcorper emnim nec est.
-	Cras dui felis,porta vitae,faucibus laoreet,sollicidudin eget,
-	Mauris egestas.Fusce in elit et sem aliquet pretium.
-	Donec nunc erat,sodales ac,facilisis a,molestie eu,massa.
-	Aenean enc justo eu neque malesuada aliquet.</p>
+	<article><h1>Contact the band</h1>
+		<form method="post" action="submit.html">
+			<fieldset>
+				<p>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name"
+					placeholder="Your Name" required="required" />
+				</p>
+				<p>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email"
+					placeholder="Your email address" required="required" />
+				</p>
+				<p>
+					<label for="message">Message:</label>
+					<textarea cols="45" rows="7" id="message"
+					name="message" required="required" placeholder="Write you message here."></textarea>
+				</p>
+				<input type="submit" value="Send" />
+			</fieldset>
+		</form>
 	</article>
 </body>
 </html>
